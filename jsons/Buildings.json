@@ -1,0 +1,214 @@
+[
+  //First era
+  {
+    "name": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"]
+  },
+  {
+    "name": "Power Generator",
+		"production": 1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Provides [10] [Electricity]"],
+    "requiredTech": "Economy"
+  },
+  {
+    "name": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"],
+    "requiredTech": "Arrakis Culture"
+  },
+  {
+    "name": "Library",
+		"hurryCostModifier": 40,
+    "requiredResource": "Electricity",
+		"maintenance": 1,
+		"uniques": ["[+1 Science] from [Oasis] tiles [in this city]"],
+		"requiredTech": "Arrakis Culture"
+  },
+  {
+    "name": "Granary",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[20]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Economy"
+  },
+  {
+    "name": "Gardens",
+		"maintenance": 2,
+		"food": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Agriculture"
+  },
+  {
+    "name": "Mint",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+    "requiredResource": "Electricity",
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"
+  },
+  {
+    "name": "Water Tank",
+		"maintenance": 2,
+		"food": 2,
+    "production": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Water Extraction"
+  },
+  {
+    "name": "Barracks",
+		"hurryCostModifier": 25,
+    "requiredResource": "Electricity",
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Military Training"
+  },
+  {
+    "name": "Public School",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+    "requiredResource": "Electricity",
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Education"
+  },
+  {
+    "name": "Bone Carver",
+    "culture": 4
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Fremen Art"
+  },
+  {
+    "name": "Shrine",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Religion",
+		"uniques": ["Hidden when religion is disabled"]
+  },
+  //Second era
+  {
+    "name": "Factory",
+		"cost": 8,
+		"production": 4,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 1},
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+    "uniques": ["Provides [2] [Spice]"],
+		"requiredResource": "Electricity",
+		"requiredTech": "Refinery"
+  },
+  {
+    "name": "Bazaar",
+		"gold": 4,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 10},
+		"uniques": ["[+1 Gold] from [Oasis] tiles [in this city]"],
+    "requiredResource": "Electricity",
+		"requiredTech": "Market"
+  },
+  {
+    "name": "Walls",
+		"cityStrength": 25,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"requiredTech": "Fortifications",
+		"uniques": ["Destroyed when the city is captured"]
+  },
+  {
+    "name": "Light Factory",
+    "hurryCostModifier": 25,
+    "requiredResource": "Electricity",
+    "requiredBuilding": "Barracks",
+    "maintenance": 2,
+    "uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+    "requiredTech": "Driving"
+  },
+  {
+    "name": "University",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 20},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Public School",
+		"uniques": ["[+1 Science] from [Desert] tiles [in this city]"],
+		"requiredTech": "Physics"
+  },
+  {
+    "name": "Music Workshop",
+		"culture": 6,
+		"specialistSlots": {"Artist": 2},
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+    "percentStatBonus": {"culture": 20},
+    "requiredResource": "Electricity",
+    "requiredBuilding": "Bone Carver",
+		"requiredTech": "Music",
+		"uniques": ["Destroyed when the city is captured"]
+  },
+  //Third era
+  {
+    "name": "Food Lab",
+    "food": 2
+		"maintenance": 3,
+		"requiredTech": "Food Laboratory",
+		"uniques": ["[40]% Food is carried over after population increases [in this city]"]
+  },
+  {
+    "name": "Heavy Factory",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Armored] units [in this city]",
+			"New [Military] units start with [15] Experience [in this city]"],
+		"requiredTech": "Tank Production",
+    "requiredBuilding": "Light Factory"
+  },
+  {
+    "name": " Design Bureau",
+		"science": 4,
+		"percentStatBonus": {"science": 50},
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "University",
+		"maintenance": 3,
+    "requiredResource": "Electricity",
+		"requiredTech": "Engineering"
+  },
+  {
+    "name": "Museum",
+		"culture": 8,
+		"percentStatBonus": {"culture": 30},
+		"maintenance": 3,
+    "requiredResource": "Electricity",
+		"requiredTech": "Archaeology",
+		"uniques": ["Destroyed when the city is captured"]
+  },
+  {
+    "name": "National Epic",
+		"cost": 125,
+		"faith": 5,
+		"isNationalWonder": true,
+		"uniques": ["[+25]% Great Person generation [in this city]"],
+		"requiredTech": "Philosophy"
+  }
+]
