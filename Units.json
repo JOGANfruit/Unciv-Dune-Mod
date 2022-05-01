@@ -1,0 +1,188 @@
+[
+  {
+    "name": "Light Infantry",
+    "unitType": "Sword",
+    "movement": 3,
+    "strength": 50,
+		"cost": 225,
+		"requiredTech": "Warfare",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "metalhit"
+  },
+  {
+    "name": "Heavy Troopers",
+    "unitType": "Sword",
+    "movement": 2,
+    "strength": 65,
+		"cost": 250,
+		"requiredTech": "Troops",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "metalhit"
+  },
+  {
+    "name": "Sardaukars",
+    "unitType": "Sword",
+    "uniqueTo": "House Corrino",
+    "replaces": "Heavy Troopers",
+    "movement": 2,
+    "strength": 80,
+		"cost": 250,
+	  "requiredTech": "Troops",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
+		"attackSound": "metalhit"
+  },
+  {
+    "name": "Bike",
+    "unitType": "Gunpowder",
+    "movement": 5,
+    "strength": 75,
+		"cost": 300,
+		"requiredTech": "Mechanized Infantry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "tankshot"
+  },
+  {
+    "name": "Trike",
+    "unitType": "Gunpowder",
+    "uniqueTo": "House Atreides",
+    "replaces": "Bike",
+    "movement": 6,
+    "strength": 80,
+		"cost": 300,
+		"requiredTech": "Mechanized Infantry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "tankshot"
+  },
+  {
+    "name": "Quad",
+    "unitType": "Ranged Gunpowder",
+    "movement": 4,
+    "strength": 50,
+    "rangedStrength": 90,
+    "range": 2,
+		"cost": 350,
+    "requiredTech": "Light Equipment",
+		"uniques": ["No defensive terrain bonus", "[50]% Strength <vs [Helicopter] units>"],
+		"attackSound": "tankshot"
+  },
+  {
+    "name": "Tank",
+    "unitType": "Armored",
+    "movement": 4,
+    "strength": 125,
+		"cost": 400,
+		"requiredTech": "Heavy Equipment",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "tankshot"
+  },
+  {
+    "name": "Rocket artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 70,
+		"range": 3,
+		"cost": 450,
+		"requiredTech": "Heavy Equipment",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"[-1] Sight", "Never appears as a Barbarian unit"],
+		"attackSound": "artillery"
+  },
+  {
+    "name": "Ornithopter",
+		"unitType": "Helicopter",
+		"movement": 5,
+		"strength": 90,
+		"cost": 450,
+		"requiredTech": "Aircraft",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "Can carry [4] [ATGM] units", "Can carry [4] [Bomb] units"],
+		"attackSound": "machinegun"
+  },
+  {
+    "name": "Heavy tank",
+    "unitType": "Armored",
+    "movement": 3,
+    "strength": 150,
+		"cost": 550,
+		"requiredTech": "Super-Heavy Equipment",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "tankshot"
+  },
+  {
+    "name": "Devastator",
+    "unitType": "Armored",
+    "uniqueTo": "House Harkonnen",
+    "replaces": "Heavy tank",
+    "movement": 3,
+    "strength": 175,
+		"cost": 600,
+		"requiredTech": "Super-Heavy Equipment",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "tankshot"
+  },
+  {
+   "name": "Sonic tank",
+   "unitType": "Ranged Gunpowder",
+   "uniqueTo": "House Atreides",
+   "movement": 3,
+   "strength": 50,
+   "rangedStrength": 150,
+   "range": 3,
+   "cost": 800,
+   "requiredTech": "Superweapon",
+   "uniques": ["Can move after attacking","No defensive terrain bonus"],
+   "attackSound": "tankshot"
+  },
+  {
+    "name": "Death hand",
+		"unitType": "Missile",
+    "uniqueTo": "House Harkonnen",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 10,
+		"cost": 1000,
+		"requiredTech": "Superweapon",
+		"attackSound": "nuke"
+  },
+  {
+    "name": "Heavy Lasgun",
+		"unitType": "Helicopter",
+    "uniqueTo": "House Corrino",
+		"movement": 3,
+		"strength": 100,
+		"cost": 800,
+		"requiredTech": "Superweapon",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "[+200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Gunpowder] units>",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+  },
+  {
+    "name": "Drone",
+		"unitType": "Scout",
+		"movement": 4,
+		"strength": 30,
+		"cost": 150,
+    "requiredTech": "Arrival on Arrakis",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit"
+  },
+  //Civilian units
+  {
+    "name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+  },
+  {
+  "name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles"],
+		"cost": 70
+  }
+]

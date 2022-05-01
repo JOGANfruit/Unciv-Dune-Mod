@@ -1,0 +1,79 @@
+[
+  //Strategic
+  {
+    "name": "Spice",
+		"resourceType": "Strategic",
+		"revealedBy": "Spice Extraction",
+		"terrainsCanBeFoundOn": ["Desert","Dunes"],
+		"production": 2,
+		"improvement": "Harvesters",
+		"improvementStats": {"production": 1},
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [100] <in [Featureless] [Desert] tiles>",
+					"Generated with weight [100] <in [Featureless] [Dunes] tiles>"],
+		"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 6},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+  },
+  {
+    "name": "Water",
+		"resourceType": "Strategic",
+		"revealedBy": "Water Extraction",
+		"terrainsCanBeFoundOn": ["Desert"],
+		"food": 2,
+		"improvement": "Water Pump",
+		"improvementStats": {"production": 1},
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [100] <in [Featureless] [Desert] tiles>",
+					"Generated with weight [100] <in [Featureless] [Dunes] tiles>"],
+		"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 6},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+  },
+  {
+    "name": "Uranium",
+		"resourceType": "Strategic",
+		"revealedBy": "Nuclear Fission",
+		"terrainsCanBeFoundOn": ["Desert"],
+		"production": 2,
+		"improvement": "Mine",
+		"improvementStats": {"production": 2},
+		"uniques": ["Generated with weight [100] <in [Desert] tiles> <in tiles without [Hill]>"],
+		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+  },
+  {
+    "name": "Iron",
+		"resourceType": "Strategic",
+		"revealedBy": "Metallurgy",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [45] <in [Featureless] [Hill] tiles>"],
+		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+  },
+  {
+		"name": "Electricity",
+		"resourceType": "Strategic",
+		"gold": 1
+	},
+  //Luxury
+  {
+    "name": "Bones",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Desert"],
+		"gold": 2,
+		"improvement": "Mine",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated with weight [1] <in [Desert] Regions>"]
+  },
+  {
+    "name": "Marble",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Desert","Hill"],
+		"gold": 2,
+		"improvement": "Quarry",
+		"improvementStats": {"production": 1},
+		"uniques": ["Special placement during map generation"]
+  }
+]
