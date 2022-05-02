@@ -6,6 +6,7 @@
     "strength": 50,
 		"cost": 225,
 		"requiredTech": "Warfare",
+    "requiredResource": "Water",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "metalhit"
   },
@@ -16,6 +17,7 @@
     "strength": 65,
 		"cost": 250,
 		"requiredTech": "Troops",
+    "requiredResource": "Water",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "metalhit"
   },
@@ -28,6 +30,7 @@
     "strength": 80,
 		"cost": 250,
 	  "requiredTech": "Troops",
+    "requiredResource": "Water",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
 		"attackSound": "metalhit"
   },
@@ -38,6 +41,7 @@
     "strength": 75,
 		"cost": 300,
 		"requiredTech": "Mechanized Infantry",
+    "requiredResource": "Spice",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "tankshot"
   },
@@ -50,6 +54,7 @@
     "strength": 80,
 		"cost": 300,
 		"requiredTech": "Mechanized Infantry",
+    "requiredResource": "Spice",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "tankshot"
   },
@@ -62,6 +67,7 @@
     "range": 2,
 		"cost": 350,
     "requiredTech": "Light Equipment",
+    "requiredResource": "Spice",
 		"uniques": ["No defensive terrain bonus", "[50]% Strength <vs [Helicopter] units>"],
 		"attackSound": "tankshot"
   },
@@ -72,6 +78,7 @@
     "strength": 125,
 		"cost": 400,
 		"requiredTech": "Heavy Equipment",
+    "requiredResource": "Iron",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "tankshot"
   },
@@ -84,6 +91,7 @@
 		"range": 3,
 		"cost": 450,
 		"requiredTech": "Heavy Equipment",
+    "requiredResource": "Iron",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"[-1] Sight", "Never appears as a Barbarian unit"],
 		"attackSound": "artillery"
@@ -95,6 +103,7 @@
 		"strength": 90,
 		"cost": 450,
 		"requiredTech": "Aircraft",
+    "requiredResource": "Spice"
 		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "Can carry [4] [ATGM] units", "Can carry [4] [Bomb] units"],
 		"attackSound": "machinegun"
@@ -106,6 +115,7 @@
     "strength": 150,
 		"cost": 550,
 		"requiredTech": "Super-Heavy Equipment",
+    "requiredResource": "Iron",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "tankshot"
   },
@@ -118,6 +128,7 @@
     "strength": 175,
 		"cost": 600,
 		"requiredTech": "Super-Heavy Equipment",
+    "requiredResource": "Iron",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "tankshot"
   },
@@ -131,6 +142,7 @@
    "range": 3,
    "cost": 800,
    "requiredTech": "Superweapon",
+   "requiredResource": "Uranium",
    "uniques": ["Can move after attacking","No defensive terrain bonus"],
    "attackSound": "tankshot"
   },
@@ -154,6 +166,7 @@
 		"strength": 100,
 		"cost": 800,
 		"requiredTech": "Superweapon",
+    "requiredResource": "Uranium",
 		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "[+200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Gunpowder] units>",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
