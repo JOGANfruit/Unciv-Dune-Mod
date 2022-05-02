@@ -12,6 +12,14 @@
 		"uniques": ["Indicates the capital city"]
   },
   {
+    "name": "Garrison",
+		"cityStrength": 25,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"requiredTech": "Warfare",
+		"uniques": ["Destroyed when the city is captured"]
+  },
+  {
     "name": "Power Generator",
 		"production": 1,
 		"cost": 40,
@@ -130,7 +138,7 @@
   },
   {
     "name": "Walls",
-		"cityStrength": 25,
+		"cityStrength": 50,
 		"cityHealth": 100,
 		"hurryCostModifier": 25,
 		"requiredTech": "Fortifications",
