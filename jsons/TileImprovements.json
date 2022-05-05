@@ -5,7 +5,7 @@
   },
   {
     "name": "Date Palms",
-  		 "terrainsCanBeBuiltOn": ["Desert"],
+  		 "terrainsCanBeBuiltOn": ["Desert", "Dunes"],
   		 "food": 1,
   		 "turnsToBuild": 7,
   		 "techRequired": "Agriculture",
@@ -43,8 +43,15 @@
 		"shortcutKey": "Q"
   },
   {
+    "name": "Bone Carver",
+		"turnsToBuild": 7,
+		"techRequired": "Fremen Art",
+		"uniques": ["[+2 Culture] <after discovering [Architecture]>"],
+		"shortcutKey": "Q"
+  },
+  {
     "name": "Trading Post",
-		"terrainsCanBeBuiltOn": ["Desert"],
+		"terrainsCanBeBuiltOn": ["Desert", "Dunes"],
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Market",
@@ -91,6 +98,26 @@
           "[+2 Food] for each adjacent [Water]"]
   },
   {
+    "name": "Spice Lab",
+    "terrainsCanBeBuiltOn": ["Hill"],
+    "food": 3,
+    "turnsToBuild": 7,
+    "techRequired": "Synthetic Food",
+    "uniques": [
+            "[+3 Science] for each adjacent [Spice]"]
+  },
+  {
+    "name": "Bank",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"gold": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Banking",
+    "uniques": [
+            "[+3 Gold] for each adjacent [Marble]",
+            "[+3 Gold] for each adjacent [Bones]",
+          "[+3 Culture] for each adjacent [Oasis]"]
+  },
+  {
     "name": "Starport",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"gold": 2,
@@ -100,6 +127,17 @@
             "[+3 Gold] for each adjacent [Marble]",
             "[+3 Gold] for each adjacent [Bones]",
           "[+3 Culture] for each adjacent [Oasis]"]
+  },
+  {
+    "name": "Temple",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"culture": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Architecture",
+    "uniques": [
+            "[+3 Culture] for each adjacent [Marble]",
+            "[+2 Culture] for each adjacent [Bones]",
+          "[+2 Culture] for each adjacent [Mountain]"]
   },
   // Military improvement
   {
@@ -123,5 +161,9 @@
     "turnsToBuild": 7,
     "techRequired": "Rocket Turrets",
     "uniques": ["Adjacent enemy units ending their turn take [100] damage", "Gives a defensive bonus of [25]%", "Costs [2] gold per turn when in your territory"]
-  }
+  },
+  {
+		"name": "Barbarian encampment",
+		"uniques": ["Unpillagable"],
+	}
 ]

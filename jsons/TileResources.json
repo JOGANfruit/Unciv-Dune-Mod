@@ -3,7 +3,7 @@
   {
     "name": "Spice",
 		"resourceType": "Strategic",
-		"revealedBy": "Spice Extraction",
+		"revealedBy": "Arrival on Arrakis",
 		"terrainsCanBeFoundOn": ["Desert","Dunes"],
 		"production": 2,
 		"improvement": "Harvesters",
@@ -17,7 +17,7 @@
   {
     "name": "Water",
 		"resourceType": "Strategic",
-		"revealedBy": "Water Extraction",
+		"revealedBy": "Arrival on Arrakis",
 		"terrainsCanBeFoundOn": ["Desert"],
 		"food": 2,
 		"improvement": "Water Pump",
@@ -43,7 +43,7 @@
   {
     "name": "Iron",
 		"resourceType": "Strategic",
-		"revealedBy": "Metallurgy",
+		"revealedBy": "Arrival on Arrakis",
 		"terrainsCanBeFoundOn": ["Hill"],
 		"production": 1,
 		"improvement": "Mine",
@@ -63,7 +63,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert"],
 		"gold": 2,
-		"improvement": "Mine",
+		"improvement": "Bone Carver",
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated with weight [1] <in [Desert] Regions>"]
   },

@@ -133,5 +133,11 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [198,255,192],
 		"cities": ["Red Chasm Sietch"]
+  },
+  {
+    "name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [182,0,0],
+		"uniques": ["Can only heal by pillaging"]
   }
 ]

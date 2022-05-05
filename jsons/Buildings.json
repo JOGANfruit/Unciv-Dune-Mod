@@ -54,14 +54,6 @@
 		"requiredTech": "Economy"
   },
   {
-    "name": "Gardens",
-		"maintenance": 2,
-		"food": 3,
-		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured"],
-		"requiredTech": "Agriculture"
-  },
-  {
     "name": "Mint",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
@@ -69,15 +61,6 @@
     "requiredResource": "Electricity",
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Currency"
-  },
-  {
-    "name": "Water Tank",
-		"maintenance": 2,
-		"food": 2,
-    "production": 1,
-		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured"],
-		"requiredTech": "Water Extraction"
   },
   {
     "name": "Barracks",
@@ -97,21 +80,6 @@
 		"requiredBuilding": "Library",
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Education"
-  },
-  {
-    "name": "Bone Carver",
-    "culture": 4
-		"happiness": 2,
-		"hurryCostModifier": 25,
-		"requiredTech": "Fremen Art"
-  },
-  {
-    "name": "Shrine",
-		"faith": 1,
-		"cost": 40,
-		"maintenance": 1,
-		"requiredTech": "Religion",
-		"uniques": ["Hidden when religion is disabled"]
   },
   //Second era
   {
@@ -171,7 +139,6 @@
 		"hurryCostModifier": 0,
     "percentStatBonus": {"culture": 20},
     "requiredResource": "Electricity",
-    "requiredBuilding": "Bone Carver",
 		"requiredTech": "Music",
 		"uniques": ["Destroyed when the city is captured"]
   },
@@ -211,12 +178,4 @@
 		"requiredTech": "Archaeology",
 		"uniques": ["Destroyed when the city is captured"]
   },
-  {
-    "name": "National Epic",
-		"cost": 125,
-		"faith": 5,
-		"isNationalWonder": true,
-		"uniques": ["[+25]% Great Person generation [in this city]"],
-		"requiredTech": "Philosophy"
-  }
 ]
